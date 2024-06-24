@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1540.0" style="-fx-background-color: #17375b;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.GUI.handlers.CreateLobbyHandler">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" fill="#f7e9be" height="423.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="328.0" />
+      <Pane layoutX="591.0" layoutY="229.0" prefHeight="409.0" prefWidth="318.0" style="-fx-background-color: #f7e9be; -fx-border-width: 5; -fx-border-color: #c7b98e; -fx-background-radius: 8; -fx-border-radius: 5;">
+         <children>
+            <Label alignment="CENTER" layoutX="18.0" layoutY="25.0" prefHeight="32.0" prefWidth="282.0" styleClass="title" text="Create Lobby" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="125.0" text="Numero Giocatori" />
+            <ChoiceBox fx:id="numberOfPlayersChoiceBox" layoutX="136.0" layoutY="121.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="gameTypeChoiceBox" layoutX="136.0" layoutY="192.0" prefWidth="150.0" />
+            <Button fx:id="okMenuButton" layoutX="143.0" layoutY="343.0" mnemonicParsing="false" onAction="#okMenuButtonPress" style="-fx-background-radius: 4;" text="OK" />
+            <Label layoutX="28.0" layoutY="196.0" text="Tipo di Partita" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

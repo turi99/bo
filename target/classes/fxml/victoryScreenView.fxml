@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1540.0" style="-fx-background-color: #17375b;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.GUI.handlers.VictoryScreenHandler">
+   <children>
+      <Pane layoutX="405.0" prefHeight="800.0" prefWidth="729.0">
+         <children>
+            <ImageView fitHeight="741.0" fitWidth="729.0" layoutX="3.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/EriantysImg.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="75.0" layoutY="349.0" prefHeight="178.0" prefWidth="586.0" style="-fx-background-color: rgba(255,249,206,0.2); -fx-border-color: #b7a97e; -fx-border-width: 8;">
+               <children>
+                  <Label fx:id="victoryMessage" alignment="CENTER" layoutX="8.0" layoutY="8.0" prefHeight="60.0" prefWidth="570.0" style="-fx-background-color: rgba(240,230,170,0.7);" text="Sample">
+                     <font>
+                        <Font name="Constantia Italic" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="congratulationMessage" alignment="CENTER" layoutX="8.0" layoutY="68.0" prefHeight="102.0" prefWidth="570.0" style="-fx-background-color: rgba(160,150,130,0.5);" text="info" textAlignment="CENTER">
+                     <font>
+                        <Font name="Constantia Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="8.0" layoutY="132.0" onMouseClicked="#exitGame" onMouseEntered="#mouseOverEnter" onMouseExited="#mouseOverExit" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: rgba(200,200,200,0.1);" text="Click here with the mouse to exit">
+                     <font>
+                        <Font name="Constantia Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="338.0" layoutY="132.0" onMouseClicked="#replayGame" onMouseEntered="#mouseOverEnter" onMouseExited="#mouseOverExit" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: rgba(200,200,200,0.1);" text="Click here with the mouse to replay">
+                     <font>
+                        <Font name="Constantia Italic" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
