@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.polimi.ingsw.client</OriginalElement>
+  <nodes>
+    <node x="0.0" y="3124.0">it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro</node>
+    <node x="1777.4386998254802" y="679.0">it.polimi.ingsw.client.MyClient</node>
+    <node x="1038.125" y="1970.0">it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler</node>
+    <node x="357.0" y="2071.5">it.polimi.ingsw.client.GUI.ViewGUIPro</node>
+    <node x="671.0660994764385" y="2385.0">it.polimi.ingsw.client.GUI.ClientGUI</node>
+    <node x="1322.125" y="1970.0">it.polimi.ingsw.client.GUI.handlers.MainMenuHandler</node>
+    <node x="1762.4386998254802" y="0.0">it.polimi.ingsw.client.ViewCli</node>
+    <node x="947.1285994764385" y="0.0">it.polimi.ingsw.client.GUI.handlers.MainGameHandler</node>
+    <node x="752.25" y="1926.0">it.polimi.ingsw.client.GUI.handlers.WaitingForPlayersHandler</node>
+    <node x="1768.9386998254802" y="529.0">it.polimi.ingsw.client.ViewCliPro</node>
+    <node x="1468.0625" y="2914.0">it.polimi.ingsw.client.GUI.SceneHandler</node>
+    <node x="1340.2535994764385" y="1506.0">it.polimi.ingsw.client.GUI.SceneManager</node>
+    <node x="719.0" y="3575.0">it.polimi.ingsw.client.GUI.handlers.VictoryScreenHandler</node>
+    <node x="989.469240837695" y="3564.0">it.polimi.ingsw.client.GUI.handlers.JoinLobbyHandler</node>
+    <node x="1418.1261998254802" y="2574.5">it.polimi.ingsw.client.GUI.GUILauncher</node>
+    <node x="404.844240837695" y="1429.0">it.polimi.ingsw.client.GUI.ViewGUI</node>
+    <node x="390.0" y="3586.0">it.polimi.ingsw.client.GUI.handlers.CreateLobbyHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler" target="it.polimi.ingsw.client.GUI.SceneManager" relationship="DEPENDENCY">
+      <point x="2.2737367544323206E-13" y="-128.5" />
+      <point x="1170.1250000000002" y="1904.0" />
+      <point x="1449.2204406631754" y="1904.0" />
+      <point x="1449.2204406631754" y="1894.0" />
+      <point x="1419.0035994764385" y="1894.0" />
+      <point x="-78.75" y="139.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-46.25" y="-579.5" />
+      <point x="138.75" y="3103.0" />
+      <point x="180.0" y="3103.0" />
+      <point x="180.0" y="3073.0" />
+      <point x="797.8160994764385" y="3073.0" />
+      <point x="797.8160994764385" y="2892.0" />
+      <point x="808.0660994764385" y="2892.0" />
+      <point x="808.0660994764385" y="2862.0" />
+      <point x="860.8160994764385" y="2862.0" />
+      <point x="63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="CREATE">
+      <point x="-84.33333333333348" y="-227.5" />
+      <point x="713.232766143105" y="2363.0" />
+      <point x="721.4619328097717" y="2363.0" />
+      <point x="721.4619328097717" y="2323.0" />
+      <point x="653.6875" y="2323.0" />
+      <point x="653.6875" y="1894.0" />
+      <point x="623.594240837695" y="1894.0" />
+      <point x="93.75" y="216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-33.0" y="128.5" />
+      <point x="1137.125" y="2313.0" />
+      <point x="1027.625" y="2313.0" />
+      <point x="1027.625" y="2363.0" />
+      <point x="797.5660994764385" y="2363.0" />
+      <point x="0.0" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.GUILauncher" target="it.polimi.ingsw.client.GUI.SceneManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.0" />
+      <point x="1493.1261998254802" y="2363.0" />
+      <point x="1601.625" y="2363.0" />
+      <point x="1601.625" y="1904.0" />
+      <point x="1449.2204406631754" y="1904.0" />
+      <point x="1449.2204406631754" y="1894.0" />
+      <point x="1419.0035994764385" y="1894.0" />
+      <point x="-78.75" y="139.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.MyClient" target="it.polimi.ingsw.client.ViewCli" relationship="CREATE">
+      <point x="0.0" y="-106.5" />
+      <point x="1887.4386998254802" y="653.0" />
+      <point x="1930.4386998254802" y="653.0" />
+      <point x="1930.4386998254802" y="503.0" />
+      <point x="1949.9386998254802" y="503.0" />
+      <point x="62.5" y="238.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.WaitingForPlayersHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="-29.125" y="172.5" />
+      <point x="839.625" y="2343.0" />
+      <point x="934.5660994764385" y="2343.0" />
+      <point x="934.5660994764385" y="2862.0" />
+      <point x="1584.5625" y="2862.0" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.SceneManager" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="78.75" y="139.5" />
+      <point x="1576.5035994764385" y="1894.0" />
+      <point x="1617.8418411867367" y="1894.0" />
+      <point x="1617.8418411867367" y="2303.0" />
+      <point x="1174.875" y="2303.0" />
+      <point x="1174.875" y="2353.0" />
+      <point x="881.899432809772" y="2353.0" />
+      <point x="84.33333333333348" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.CreateLobbyHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="-103.0" y="-117.5" />
+      <point x="441.5" y="3063.0" />
+      <point x="707.594240837695" y="3063.0" />
+      <point x="707.594240837695" y="2892.0" />
+      <point x="781.8160994764385" y="2892.0" />
+      <point x="781.8160994764385" y="2882.0" />
+      <point x="734.3160994764385" y="2882.0" />
+      <point x="-63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler" relationship="CREATE">
+      <point x="-84.33333333333348" y="-227.5" />
+      <point x="713.232766143105" y="2363.0" />
+      <point x="721.4619328097717" y="2363.0" />
+      <point x="721.4619328097717" y="2323.0" />
+      <point x="1071.125" y="2323.0" />
+      <point x="-99.0" y="128.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.VictoryScreenHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="78.66666666666663" y="-128.5" />
+      <point x="915.6666666666666" y="3093.0" />
+      <point x="1584.5625" y="3093.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.JoinLobbyHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="0.0" y="-139.5" />
+      <point x="1131.969240837695" y="3033.0" />
+      <point x="941.7095331588134" y="3033.0" />
+      <point x="941.7095331588134" y="2892.0" />
+      <point x="808.0660994764385" y="2892.0" />
+      <point x="808.0660994764385" y="2862.0" />
+      <point x="860.8160994764385" y="2862.0" />
+      <point x="63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainMenuHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="100.875" y="128.5" />
+      <point x="1557.5" y="2353.0" />
+      <point x="1578.6261998254802" y="2353.0" />
+      <point x="1578.6261998254802" y="2862.0" />
+      <point x="1584.5625" y="2862.0" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.ViewGUIPro" relationship="DEPENDENCY">
+      <point x="-46.25" y="-579.5" />
+      <point x="138.75" y="3103.0" />
+      <point x="180.0" y="3103.0" />
+      <point x="180.0" y="3073.0" />
+      <point x="452.5" y="3073.0" />
+      <point x="452.5" y="2363.0" />
+      <point x="407.25" y="2363.0" />
+      <point x="-50.25" y="27.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="DEPENDENCY">
+      <point x="-46.25" y="-579.5" />
+      <point x="138.75" y="3103.0" />
+      <point x="180.0" y="3103.0" />
+      <point x="180.0" y="3073.0" />
+      <point x="218.2928664921467" y="3073.0" />
+      <point x="218.2928664921467" y="1894.0" />
+      <point x="436.094240837695" y="1894.0" />
+      <point x="-93.75" y="216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.handlers.MainMenuHandler" relationship="CREATE">
+      <point x="-84.33333333333348" y="-227.5" />
+      <point x="713.232766143105" y="2363.0" />
+      <point x="721.4619328097717" y="2363.0" />
+      <point x="721.4619328097717" y="2323.0" />
+      <point x="1355.75" y="2323.0" />
+      <point x="-100.875" y="128.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="DEPENDENCY">
+      <point x="-35.625" y="678.5" />
+      <point x="1054.0035994764385" y="1378.0" />
+      <point x="486.63710732984174" y="1378.0" />
+      <point x="486.63710732984174" y="1408.0" />
+      <point x="467.344240837695" y="1408.0" />
+      <point x="-62.5" y="-216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ViewGUI" target="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" relationship="DEPENDENCY">
+      <point x="-62.5" y="-216.5" />
+      <point x="467.344240837695" y="1408.0" />
+      <point x="486.63710732984174" y="1408.0" />
+      <point x="486.63710732984174" y="1378.0" />
+      <point x="1054.0035994764385" y="1378.0" />
+      <point x="-35.625" y="678.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.JoinLobbyHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="-95.0" y="-139.5" />
+      <point x="1036.969240837695" y="3043.0" />
+      <point x="786.8160994764385" y="3043.0" />
+      <point x="786.8160994764385" y="2892.0" />
+      <point x="781.8160994764385" y="2892.0" />
+      <point x="781.8160994764385" y="2882.0" />
+      <point x="734.3160994764385" y="2882.0" />
+      <point x="-63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-35.625" y="678.5" />
+      <point x="1054.0035994764385" y="1378.0" />
+      <point x="486.63710732984174" y="1378.0" />
+      <point x="486.6371073298417" y="1408.0" />
+      <point x="818.0625" y="1408.0" />
+      <point x="818.0625" y="1894.0" />
+      <point x="664.6875" y="1894.0" />
+      <point x="664.6875" y="2313.0" />
+      <point x="1027.625" y="2313.0" />
+      <point x="1027.625" y="2363.0" />
+      <point x="797.5660994764385" y="2363.0" />
+      <point x="0.0" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.WaitingForPlayersHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="29.125" y="172.5" />
+      <point x="897.875" y="2313.0" />
+      <point x="1027.625" y="2313.0" />
+      <point x="1027.625" y="2363.0" />
+      <point x="797.5660994764385" y="2363.0" />
+      <point x="0.0" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="33.0" y="128.5" />
+      <point x="1203.125" y="2303.0" />
+      <point x="1174.875" y="2303.0" />
+      <point x="1174.875" y="2353.0" />
+      <point x="881.899432809772" y="2353.0" />
+      <point x="84.33333333333348" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.SceneManager" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="DEPENDENCY">
+      <point x="-78.75" y="139.5" />
+      <point x="1419.0035994764385" y="1894.0" />
+      <point x="1449.2204406631754" y="1894.0" />
+      <point x="1449.2204406631754" y="1904.0" />
+      <point x="1606.8418411867367" y="1904.0" />
+      <point x="1606.8418411867367" y="2882.0" />
+      <point x="1221.5625" y="2882.0" />
+      <point x="1221.5625" y="2892.0" />
+      <point x="1506.8958333333333" y="2892.0" />
+      <point x="-77.66666666666674" y="-49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.VictoryScreenHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-78.66666666666674" y="-128.5" />
+      <point x="758.3333333333333" y="3103.0" />
+      <point x="565.219240837695" y="3103.0" />
+      <point x="565.219240837695" y="3033.0" />
+      <point x="797.8160994764385" y="3033.0" />
+      <point x="797.8160994764385" y="2892.0" />
+      <point x="808.0660994764385" y="2892.0" />
+      <point x="808.0660994764385" y="2862.0" />
+      <point x="860.8160994764385" y="2862.0" />
+      <point x="63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.CreateLobbyHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="103.0" y="-117.5" />
+      <point x="647.5" y="3093.0" />
+      <point x="1584.5625" y="3093.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainMenuHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="33.625" y="128.5" />
+      <point x="1490.25" y="2303.0" />
+      <point x="1174.875" y="2303.0" />
+      <point x="1174.875" y="2353.0" />
+      <point x="881.899432809772" y="2353.0" />
+      <point x="84.33333333333348" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.handlers.WaitingForPlayersHandler" relationship="CREATE">
+      <point x="-84.33333333333348" y="-227.5" />
+      <point x="713.232766143105" y="2363.0" />
+      <point x="721.4619328097717" y="2363.0" />
+      <point x="721.4619328097717" y="2323.0" />
+      <point x="781.375" y="2323.0" />
+      <point x="-87.375" y="172.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.SceneManager" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="TO_ONE">
+      <point x="78.75" y="139.5" />
+      <point x="1576.5035994764385" y="1894.0" />
+      <point x="1617.8418411867367" y="1894.0" />
+      <point x="1617.8418411867367" y="1904.0" />
+      <point x="1622.3418411867367" y="1904.0" />
+      <point x="1622.3418411867367" y="2892.0" />
+      <point x="1662.2291666666667" y="2892.0" />
+      <point x="77.66666666666674" y="-49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.ViewCliPro" target="it.polimi.ingsw.client.ViewCli" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="1844.4386998254802" y="503.0" />
+      <point x="1824.9386998254802" y="503.0" />
+      <point x="-62.5" y="238.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ViewGUI" target="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" relationship="TO_ONE">
+      <point x="62.5" y="-216.5" />
+      <point x="592.344240837695" y="1398.0" />
+      <point x="1476.3785994764385" y="1398.0" />
+      <point x="1476.3785994764385" y="1378.0" />
+      <point x="1125.2535994764385" y="1378.0" />
+      <point x="35.625" y="678.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="TO_ONE">
+      <point x="35.625" y="678.5" />
+      <point x="1125.2535994764385" y="1378.0" />
+      <point x="1476.3785994764385" y="1378.0" />
+      <point x="1476.3785994764385" y="1398.0" />
+      <point x="592.344240837695" y="1398.0" />
+      <point x="62.5" y="-216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="106.875" y="678.5" />
+      <point x="1196.5035994764385" y="1388.0" />
+      <point x="1717.4386998254802" y="1388.0" />
+      <point x="1717.4386998254802" y="2862.0" />
+      <point x="1584.5625" y="2862.0" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="99.00000000000023" y="128.5" />
+      <point x="1269.1250000000002" y="2333.0" />
+      <point x="1319.5035994764385" y="2333.0" />
+      <point x="1319.5035994764385" y="2862.0" />
+      <point x="1584.5625" y="2862.0" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="TO_ONE">
+      <point x="46.25" y="-579.5" />
+      <point x="231.25" y="3103.0" />
+      <point x="265.625" y="3103.0" />
+      <point x="265.625" y="3053.0" />
+      <point x="568.5" y="3053.0" />
+      <point x="568.5" y="1904.0" />
+      <point x="633.844240837695" y="1904.0" />
+      <point x="633.844240837695" y="1884.0" />
+      <point x="561.094240837695" y="1884.0" />
+      <point x="31.25" y="216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.VictoryScreenHandler" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="DEPENDENCY">
+      <point x="-78.66666666666674" y="-128.5" />
+      <point x="758.3333333333333" y="3103.0" />
+      <point x="565.219240837695" y="3103.0" />
+      <point x="565.219240837695" y="3033.0" />
+      <point x="346.5" y="3033.0" />
+      <point x="346.5" y="1904.0" />
+      <point x="218.2928664921467" y="1904.0" />
+      <point x="218.2928664921467" y="1894.0" />
+      <point x="436.094240837695" y="1894.0" />
+      <point x="-93.75" y="216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.SceneManager" relationship="DEPENDENCY">
+      <point x="0.0" y="-227.5" />
+      <point x="797.5660994764385" y="2363.0" />
+      <point x="1027.625" y="2363.0" />
+      <point x="1027.625" y="1904.0" />
+      <point x="1449.2204406631754" y="1904.0" />
+      <point x="1449.2204406631754" y="1894.0" />
+      <point x="1419.0035994764385" y="1894.0" />
+      <point x="-78.75" y="139.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.SceneManager" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-78.75" y="139.5" />
+      <point x="1419.0035994764385" y="1894.0" />
+      <point x="1449.2204406631754" y="1894.0" />
+      <point x="1449.2204406631754" y="1904.0" />
+      <point x="1027.625" y="1904.0" />
+      <point x="1027.625" y="2363.0" />
+      <point x="797.5660994764385" y="2363.0" />
+      <point x="0.0" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.CreateLobbyHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="0.0" y="-117.5" />
+      <point x="544.5" y="3083.0" />
+      <point x="826.0" y="3083.0" />
+      <point x="826.0" y="2892.0" />
+      <point x="808.0660994764385" y="2892.0" />
+      <point x="808.0660994764385" y="2862.0" />
+      <point x="860.8160994764385" y="2862.0" />
+      <point x="63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.GUILauncher" target="it.polimi.ingsw.client.GUI.handlers.MainMenuHandler" relationship="DEPENDENCY">
+      <point x="0.0" y="-38.0" />
+      <point x="1493.1261998254802" y="2333.0" />
+      <point x="1432.4386998254802" y="2333.0" />
+      <point x="1432.4386998254802" y="2293.0" />
+      <point x="1423.0" y="2293.0" />
+      <point x="-33.625" y="128.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.VictoryScreenHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="0.0" y="-128.5" />
+      <point x="837.0" y="3053.0" />
+      <point x="707.594240837695" y="3053.0" />
+      <point x="707.594240837695" y="2892.0" />
+      <point x="781.8160994764385" y="2892.0" />
+      <point x="781.8160994764385" y="2882.0" />
+      <point x="734.3160994764385" y="2882.0" />
+      <point x="-63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" relationship="GENERALIZATION">
+      <point x="-138.75" y="-579.5" />
+      <point x="46.25" y="3103.0" />
+      <point x="10.917866492146686" y="3103.0" />
+      <point x="10.917866492146686" y="1388.0" />
+      <point x="982.7535994764385" y="1388.0" />
+      <point x="-106.875" y="678.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="138.75" y="-579.5" />
+      <point x="323.75" y="3093.0" />
+      <point x="1584.5625" y="3093.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="35.625" y="678.5" />
+      <point x="1125.2535994764385" y="1378.0" />
+      <point x="1476.3785994764385" y="1378.0" />
+      <point x="1476.3785994764385" y="1398.0" />
+      <point x="1706.4386998254802" y="1398.0" />
+      <point x="1706.4386998254802" y="2303.0" />
+      <point x="1174.875" y="2303.0" />
+      <point x="1174.875" y="2353.0" />
+      <point x="881.899432809772" y="2353.0" />
+      <point x="84.33333333333348" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainGameHandlerPro" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="46.25" y="-579.5" />
+      <point x="231.25" y="3103.0" />
+      <point x="265.625" y="3103.0" />
+      <point x="265.625" y="3053.0" />
+      <point x="670.719240837695" y="3053.0" />
+      <point x="670.719240837695" y="2892.0" />
+      <point x="781.8160994764385" y="2892.0" />
+      <point x="781.8160994764385" y="2882.0" />
+      <point x="734.3160994764385" y="2882.0" />
+      <point x="-63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.MainMenuHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-33.625" y="128.5" />
+      <point x="1423.0" y="2293.0" />
+      <point x="1432.4386998254802" y="2293.0" />
+      <point x="1432.4386998254802" y="2343.0" />
+      <point x="1027.625" y="2343.0" />
+      <point x="1027.625" y="2363.0" />
+      <point x="797.5660994764385" y="2363.0" />
+      <point x="0.0" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.JoinLobbyHandler" target="it.polimi.ingsw.client.GUI.SceneHandler" relationship="REALIZATION">
+      <point x="95.0" y="-139.5" />
+      <point x="1226.969240837695" y="3093.0" />
+      <point x="1584.5625" y="3093.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.MyClient" target="it.polimi.ingsw.client.ViewCliPro" relationship="CREATE">
+      <point x="0.0" y="-106.5" />
+      <point x="1887.4386998254802" y="653.0" />
+      <point x="1844.4386998254802" y="653.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ViewGUIPro" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="457.5" y="1904.0" />
+      <point x="498.594240837695" y="1904.0" />
+      <point x="-31.25" y="216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.handlers.WaitingForPlayersHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="TO_ONE">
+      <point x="87.375" y="172.5" />
+      <point x="956.125" y="2303.0" />
+      <point x="1174.875" y="2303.0" />
+      <point x="1174.875" y="2353.0" />
+      <point x="881.899432809772" y="2353.0" />
+      <point x="84.33333333333348" y="-227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.SceneHandler" target="it.polimi.ingsw.client.GUI.ClientGUI" relationship="DEPENDENCY">
+      <point x="-77.66666666666674" y="-49.0" />
+      <point x="1506.8958333333333" y="2892.0" />
+      <point x="1221.5625" y="2892.0" />
+      <point x="1221.5625" y="2872.0" />
+      <point x="808.0660994764385" y="2872.0" />
+      <point x="808.0660994764385" y="2862.0" />
+      <point x="860.8160994764385" y="2862.0" />
+      <point x="63.25" y="227.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.ViewGUI" relationship="TO_ONE">
+      <point x="84.33333333333348" y="-227.5" />
+      <point x="881.899432809772" y="2353.0" />
+      <point x="1174.875" y="2353.0" />
+      <point x="1174.875" y="2303.0" />
+      <point x="995.75" y="2303.0" />
+      <point x="995.75" y="1904.0" />
+      <point x="633.844240837695" y="1904.0" />
+      <point x="633.844240837695" y="1884.0" />
+      <point x="561.094240837695" y="1884.0" />
+      <point x="31.25" y="216.5" />
+    </edge>
+    <edge source="it.polimi.ingsw.client.GUI.ClientGUI" target="it.polimi.ingsw.client.GUI.ViewGUIPro" relationship="CREATE">
+      <point x="-84.33333333333348" y="-227.5" />
+      <point x="713.232766143105" y="2363.0" />
+      <point x="721.4619328097717" y="2363.0" />
+      <point x="721.4619328097717" y="2323.0" />
+      <point x="507.75" y="2323.0" />
+      <point x="50.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.1" showDependencies="true" x="2559.0" y="1961.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

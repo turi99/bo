@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1540.0" style="-fx-background-color: #17375b;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler">
+   <children>
+      <Pane layoutX="467.0" layoutY="196.0" prefHeight="407.0" prefWidth="606.0" style="-fx-background-color: #f7e9be; -fx-border-color: #c7b98e; -fx-border-width: 5; -fx-background-radius: 8; -fx-border-radius: 5;">
+         <children>
+            <Text layoutX="11.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you want to create a new Lobby or join an already existing one?" textAlignment="CENTER" wrappingWidth="583.5879135131836">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <HBox alignment="CENTER" layoutX="3.0" layoutY="175.0" prefHeight="177.0" prefWidth="600.0" spacing="120.0">
+               <children>
+                  <Button fx:id="joinLobbyButton" mnemonicParsing="false" onAction="#joinLobbyButtonPress" prefHeight="127.0" prefWidth="147.0" style="-fx-background-radius: 10;" text="Join Lobby" textAlignment="CENTER" />
+                  <Button fx:id="newLobbyButton" mnemonicParsing="false" onAction="#newLobbyButtonPress" prefHeight="127.0" prefWidth="147.0" style="-fx-background-radius: 10;" text="Create new Lobby" textAlignment="CENTER" />
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,21 +1,19 @@
 package it.polimi.ingsw.client.GUI;
 
-import it.polimi.ingsw.client.GUI.handlers.CreateLobbyHandler;
 import it.polimi.ingsw.client.GUI.handlers.LobbyConnectionHandler;
 import it.polimi.ingsw.client.GUI.handlers.MainMenuHandler;
 import it.polimi.ingsw.client.GUI.handlers.WaitingForPlayersHandler;
-import it.polimi.ingsw.client.ViewCli;
-import it.polimi.ingsw.client.ViewCliPro;
 import it.polimi.ingsw.model.Model;
 import it.polimi.ingsw.model.ModelPro;
 import it.polimi.ingsw.model.ModelView;
 import it.polimi.ingsw.model.ModelViewPro;
 import javafx.application.Platform;
-import javafx.scene.Parent;
 
-import java.io.*;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.PrintStream;
 import java.net.Socket;
-import java.util.Scanner;
 
 public class ClientGUI {
     private ViewGUI viewGui;
