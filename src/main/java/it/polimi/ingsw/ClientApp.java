@@ -1,5 +1,5 @@
 package it.polimi.ingsw;
-//testtttttt
+
 import it.polimi.ingsw.client.MyClient;
 import it.polimi.ingsw.client.GUI.ClientGUI;
 import it.polimi.ingsw.client.GUI.GUILauncher;

@@ -93,10 +93,8 @@ public class StateTurn extends State{
      */
     public State nextState(){
         if(numOfPawnPlayed < maxPawnPlayable){
-            return this;
+                return this;
         }else{
-            ((ModelPro)model).deactivateAllActiveGameCards();
-            model.notify(((ModelPro)model).getActiveGameCards());
             return new StateMoveMotherNature(model);
         }
 
