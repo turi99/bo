@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Cloud  implements Serializable {
     private ArrayList<Student> students;
-    private int dim;
+    private final int dim;
 
 
     public Cloud(int dim){
@@ -52,7 +52,7 @@ public class Cloud  implements Serializable {
         else{
             ArrayList<Student> x=students;
 
-            students = new ArrayList<Student>();
+            students = new ArrayList<>();
 
             return x;
         }

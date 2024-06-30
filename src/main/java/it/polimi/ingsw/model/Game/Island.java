@@ -1,6 +1,5 @@
 package it.polimi.ingsw.model.Game;
 
-import it.polimi.ingsw.model.Exceptions.ExceptionIslandNotConquered;
 import it.polimi.ingsw.model.Exceptions.ExceptionsNoSuchTowers;
 
 import java.io.Serializable;
@@ -8,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 public class Island implements Serializable {
-    private ArrayList<Student> students=new ArrayList<Student>();
+    private ArrayList<Student> students= new ArrayList<>();
     private Tower tower;
 
 

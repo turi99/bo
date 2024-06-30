@@ -3,15 +3,12 @@ package it.polimi.ingsw.model;
 import it.polimi.ingsw.model.Exceptions.ExceptionLaneNotFound;
 import it.polimi.ingsw.model.Exceptions.ExceptionPlayerCantPay;
 import it.polimi.ingsw.model.Exceptions.ExceptionStudentNotFound;
-import it.polimi.ingsw.model.Exceptions.ExceptionWrongStudentColor;
 import it.polimi.ingsw.model.Game.*;
 import it.polimi.ingsw.model.GamePro.CharacterCards.CharacterCard;
-import it.polimi.ingsw.model.GamePro.CharacterCards.SpecificCharacterCard.CardRuleProfessor;
 import it.polimi.ingsw.model.GamePro.CharactersDeck;
 import it.polimi.ingsw.model.GamePro.PlayerPro;
 import it.polimi.ingsw.model.GamePro.StatePro.StatePro;
 import it.polimi.ingsw.model.GamePro.StatePro.StateProPlayCard;
-import it.polimi.ingsw.utils.observer.Observable;
 import it.polimi.ingsw.utils.observer.Observer;
 
 import java.util.ArrayList;

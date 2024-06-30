@@ -16,7 +16,7 @@ public class IslandTest {
 
     @Test
     public void getStudentTest() {
-        ArrayList<Student> students= new ArrayList<Student>();
+        ArrayList<Student> students= new ArrayList<>();
         for(int i=0;i<5;i++){
             students.add(new Student(Col_Pawn.BLUE));
         }
