@@ -44,7 +44,7 @@ public class Cloud  implements Serializable {
 
     /**
      *
-     * @return if students.size>0, return the list of all student on the cloud
+     * @return if students.size()>0, return the list of all student on the cloud
      * @throws ExceptionCloudYetChoose students.size>0
      */
     public ArrayList<Student> removeStudents() throws ExceptionCloudYetChoose {

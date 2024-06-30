@@ -43,7 +43,10 @@ public class CardLoseStudentFromLane extends CharacterCard {
         int x=-1;
         try {
             x = Integer.parseInt(parameters);
-        }catch (NumberFormatException e){
+        }catch (NumberFormatException e){model.notify(
+                "" + model.getCurrentPlayerPos() + "," +
+                        e.getMessage()
+        );
             return false;
         }
         for(Col_Pawn c: Col_Pawn.values()){
@@ -69,11 +72,19 @@ public class CardLoseStudentFromLane extends CharacterCard {
                     if (!x.isEmpty()) {
                         model.getBag().addStudent(x.get(0));
                         x.remove(0);
+                    }else {
+                        if(p.containsProfessor(student)){
+                            model.checkProf(student);
+                        }
+                        break;
                     }
+
                 }
             }
         }
+        model.notify(model.arrayToArrayList(model.getPlayers()));
     }
+
 
     /**
      *

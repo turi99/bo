@@ -26,10 +26,12 @@ public class ModelPro extends Model implements Observer<Object> {
         boxToPro();
         upgradePlayer();
         gameCard=new CharactersDeck(this);
-        activeGameCard=gameCard.getRandomCards(3);
+        activeGameCard=gameCard.getRandomCards(1);
+        activeGameCard.add(gameCard.getAllCharacterCards().get(7));
+        activeGameCard.add(gameCard.getAllCharacterCards().get(9));
 
         for(Player p : getPlayers()){
-            giveCoinsToPlayer((PlayerPro) p,1);
+            giveCoinsToPlayer((PlayerPro) p,3);
         }
 
 
@@ -205,7 +207,6 @@ public class ModelPro extends Model implements Observer<Object> {
     public void moveStudentToLane(Col_Pawn colorStudent) throws ExceptionLaneNotFound, ExceptionStudentNotFound, ExceptionPlayerCantPay {
         super.moveStudentToLane(colorStudent);
         notify(arrayToArrayList(getPlayers()));
-
         if( ((PlayerPro)getCurrentPlayer()).checkStudentsForCoin(colorStudent) ) {
             giveCoinsToPlayer((PlayerPro) getCurrentPlayer(), 1) ;
             notify(arrayToArrayList(getPlayers()));

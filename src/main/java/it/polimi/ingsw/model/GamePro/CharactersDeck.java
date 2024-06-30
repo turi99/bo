@@ -24,20 +24,19 @@ public class CharactersDeck implements Serializable {
 
         allCharacterCards.add(new CardIgnoreStudent(modelPro));
 
-        allCharacterCards.add(new CardStudentOnIsland(modelPro));
+        allCharacterCards.add(new CardStudentOnIsland(modelPro));//OK
 
         allCharacterCards.add(new CardSwitchBoard(modelPro));
 
         allCharacterCards.add(new CardBlock(modelPro));
 
-        allCharacterCards.add(new CardLoseStudentFromLane(modelPro));
+        allCharacterCards.add(new CardLoseStudentFromLane(modelPro));//OK
 
         allCharacterCards.add(new CardMoveLane(modelPro));
 
-        allCharacterCards.add(new CardRuleProfessor(modelPro));   // XXX
+        allCharacterCards.add(new CardRuleProfessor(modelPro));   //OK
 
         allCharacterCards.add(new CardStartConquer(modelPro));      // XXX
-
 
         allCharacterCards.add(new CardSwitchBoardLane(modelPro));
 
@@ -62,5 +61,9 @@ public class CharactersDeck implements Serializable {
         }
 
         return returnedList;
+    }
+
+    public ArrayList<CharacterCard> getAllCharacterCards() {
+        return allCharacterCards;
     }
 }

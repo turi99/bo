@@ -73,7 +73,7 @@ public class Island implements Serializable {
     }
 
     private Tower changeTower(Tower tower){
-        Tower x= new Tower(this.tower);
+        Tower x= this.tower;
         this.tower=tower;
         return x;
 
